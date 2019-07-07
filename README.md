@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 test
+=======
+yahoo
+>>>>>>> Stashed changes
 
 this is test for commit to master.
 
