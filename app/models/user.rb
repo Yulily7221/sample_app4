@@ -33,10 +33,8 @@ class User < ApplicationRecord
   def forget
     update_attribute(:remember_digest, nil)
   end
-end
 
-def feed
-    Micropost.where("user_id = ?", id)
+  def feed
+      Micropost.where("user_id = ?", id)
+  end
 end
-
-private
